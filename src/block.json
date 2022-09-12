@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/alert",
+	"version": "0.1.0",
+	"title": "Alerte",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Bloc d'alerte",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "alert",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": ".alertContent"
+		},
+		"color": {
+			"type": "string"
+		}
+	}
+}
