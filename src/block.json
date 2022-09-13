@@ -21,7 +21,8 @@
 			"selector": ".alertContent"
 		},
 		"color": {
-			"type": "string"
+			"type": "string",
+			"default": "primary"
 		}
 	}
 }

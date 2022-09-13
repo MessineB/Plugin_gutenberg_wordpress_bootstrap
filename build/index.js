@@ -35,7 +35,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
  * Those files can contain any CSS code that gets applied to the editor.
@@ -111,8 +110,7 @@ const Edit = props => {
       label: "Dark",
       value: "dark"
     }],
-    onChange: newColor => onChangeColor(newColor),
-    __nextHasNoMarginBottom: true
+    onChange: newColor => onChangeColor(newColor)
   }));
 };
 
@@ -343,7 +341,7 @@ function _extends() {
   \************************/
 /***/ (function(module) {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/alert","version":"0.1.0","title":"Alerte","category":"widgets","icon":"smiley","description":"Bloc d\'alerte","supports":{"html":false},"textdomain":"alert","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","attributes":{"content":{"type":"string","source":"html","selector":".alertContent"},"color":{"type":"string"}}}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/alert","version":"0.1.0","title":"Alerte","category":"widgets","icon":"smiley","description":"Bloc d\'alerte","supports":{"html":false},"textdomain":"alert","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","attributes":{"content":{"type":"string","source":"html","selector":".alertContent"},"color":{"type":"string","default":"primary"}}}');
 
 /***/ })
 

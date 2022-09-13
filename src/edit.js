@@ -13,7 +13,6 @@ import { __ } from "@wordpress/i18n";
  */
 import { useBlockProps, RichText } from "@wordpress/block-editor";
 import { SelectControl } from "@wordpress/components";
-import { useState } from "@wordpress/element";
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -71,7 +70,6 @@ const Edit = (props) => {
 					{ label: "Dark", value: "dark" },
 				]}
 				onChange={(newColor) => onChangeColor(newColor)}
-				__nextHasNoMarginBottom
 			/>
 		</div>
 	);
