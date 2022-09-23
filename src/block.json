@@ -3,7 +3,7 @@
 	"apiVersion": 2,
 	"name": "create-block/alert",
 	"version": "0.1.0",
-	"title": "Alerte",
+	"title": "Gutenberg_Alerte",
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Bloc d'alerte",

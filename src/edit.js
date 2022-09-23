@@ -33,7 +33,7 @@ import "./editor.scss";
 
 const Edit = (props) => {
 	const {
-		attributes: { content, color = "primary" },
+		attributes: { content, color = "sucess" },
 		setAttributes,
 	} = props;
 
@@ -52,7 +52,7 @@ const Edit = (props) => {
 					tagName="div"
 					onChange={onChangeContent}
 					value={content}
-					placeholder="Votre alerte..."
+					placeholder="Ecrivez votre alerte..."
 					className="alertContent"
 				/>
 			</div>
@@ -60,14 +60,14 @@ const Edit = (props) => {
 				label="Couleur"
 				value={color}
 				options={[
-					{ label: "Primary", value: "primary" },
-					{ label: "Secondary", value: "secondary" },
-					{ label: "Success", value: "success" },
+					{ label: "Bleu", value: "primary" },
+					{ label: "Gris", value: "secondary" },
+					{ label: "Succes", value: "success" },
 					{ label: "Danger", value: "danger" },
-					{ label: "Warning", value: "warning" },
+					{ label: "Alerte", value: "warning" },
 					{ label: "Info", value: "info" },
-					{ label: "Light", value: "light" },
-					{ label: "Dark", value: "dark" },
+					{ label: "Blanc", value: "light" },
+					{ label: "Sombre", value: "dark" },
 				]}
 				onChange={(newColor) => onChangeColor(newColor)}
 			/>

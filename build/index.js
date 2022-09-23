@@ -80,34 +80,34 @@ const Edit = props => {
     tagName: "div",
     onChange: onChangeContent,
     value: content,
-    placeholder: "Votre alerte...",
+    placeholder: "Ecrivez votre alerte...",
     className: "alertContent"
   })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.SelectControl, {
     label: "Couleur",
     value: color,
     options: [{
-      label: "Primary",
+      label: "Bleu",
       value: "primary"
     }, {
-      label: "Secondary",
+      label: "Gris",
       value: "secondary"
     }, {
-      label: "Success",
+      label: "Succes",
       value: "success"
     }, {
       label: "Danger",
       value: "danger"
     }, {
-      label: "Warning",
+      label: "Alerte",
       value: "warning"
     }, {
       label: "Info",
       value: "info"
     }, {
-      label: "Light",
+      label: "Blanc",
       value: "light"
     }, {
-      label: "Dark",
+      label: "Sombre",
       value: "dark"
     }],
     onChange: newColor => onChangeColor(newColor)
